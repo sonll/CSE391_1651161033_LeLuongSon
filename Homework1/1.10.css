@@ -1,0 +1,19 @@
+table{
+    width: 600px;
+    border: 2px solid red;
+    border-color: red;
+}
+.first{
+    color:white ;
+    background-color: #ff0000;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bolder ;
+}
+.second{
+    color: #ff0000;
+    background-color: #ffbbbb;
+    font-weight: bolder;
+    font-size: 28px;
+    text-align: center;
+}

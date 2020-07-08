@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(79, 145, 205);
+}
+
+#quick-nav {
+    width: 35%;
+}
+
+#quick-nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#quick-nav-ul li {
+    padding: 10px;
+    border-right: 1px solid white;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#branding {
+    width: 35%;
+    text-align: center;
+}
+
+#branding p {
+    color: rgb(134, 167, 210);
+}
+
+#utilities-nav {
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#utilities-nav a {
+    margin-right: 10px;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+#main-nav {
+    padding: 10px;
+    background-color: rgb(4, 56, 103);
+}
+
+#main-nav ul {
+    font-size: 20px;
+    padding-left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#main-nav ul li {
+    border-right: 1px solid white;
+    list-style-type: none;
+}
+
+#main-nav ul li a {
+    margin: 10px 30px 10px 30px;
+}
+
+a {
+    color: white;
+}
+
+.hero img {
+    margin: 40px 20px 10px 40px;
+    width: 95%;
+}
+
+#MYM {
+    background-color: rgb(122, 161, 32);
+    display: flex;
+    padding: 20px;
+    margin: 40px 20px 10px 30px;
+    text-align: left;
+    font-size: 25px;
+    flex-direction: row;
+}
+
+#MYM p {
+    width: 60%;
+    color: white;
+}
+
+#MYM h1 {
+    text-align: left;
+    width: 40%;
+    color: white;
+}
+
+#hero-div {
+    padding-left: 250px;
+    padding-right: 250px;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+
+h2 a {
+    font-size: 30px;
+    color: rgb(79, 145, 205);
+}
+
+#UGA {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#UGA div {
+    width: 30%;
+    text-align: left;
+    margin: 10px 10px 50px 30px;
+    background-color: rgb(231, 236, 240);
+}
+
+#UGA h2 {
+    font-size: 30px;
+    color: rgb(79, 145, 205);
+}
+
+#RTU {
+    display: flex;
+    flex-direction: row;
+}
+
+#RTU div {
+    margin: 10px 10px 50px 30px;
+    width: 30%;
+}
+
+#RTU-1 {
+    background-color: rgb(98, 14, 110);
+}
+
+#RTU-2 {
+    background-color: rgb(79, 145, 205);
+}
+
+h4 {
+    color: black;
+    font-size: x-large;
+}
+
+#RTU-3 {
+    text-align: left;
+}
+
+#RTU-3 section p {
+    padding: 20px;
+    margin-right: 20px;
+    color: green;
+    border: 2px rgb(231, 236, 240) solid;
+}
+
+#RTU-3-1 {
+    text-align: center;
+    margin: auto;
+    color: rgb(79, 145, 205);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#button-bot{
+margin-left: 50px;
+}
+#button-bot a {
+    margin-left: 100px;
+    color: rgb(79, 145, 205);
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    width: 20%;
+    border: rgb(79, 145, 205) 1px solid;
+}
+footer{
+    background-color: rgb(52, 56, 60);
+}
+#full-nav {
+    margin-top: 100px;
+display: flex;
+border-bottom: 1px white solid;
+flex-direction: row;
+}
+#full-nav div{
+    margin: 20px;
+  
+}
+#full-nav ul li{
+    list-style-type: none;
+}
+small{
+    margin: 20px;
+  padding-left: 45%;
+color: white;
+
+}
