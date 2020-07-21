@@ -1,0 +1,16 @@
+body{
+    background-color: greenyellow;
+}
+.container{
+    background-color: greenyellow;
+    display: flex;
+}
+img{
+    max-width: 50%;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
