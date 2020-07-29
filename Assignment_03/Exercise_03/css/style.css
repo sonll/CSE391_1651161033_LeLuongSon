@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+form {
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+}
+
+div {
+    width: 50%;
+}
+
+textarea {
+    overflow-y: scroll;
+    resize: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 80%;
+    max-height: 400px;
+    height: 200px;
+    
+}
+
+select {
+    margin-left: 20px;
+}
+
+button {
+    max-width: 120px;
+    min-width: 110px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.style_1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.style_2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+
+.style_3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:pink;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.style_4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellowgreen;
+    font-size: 15px;
+    text-transform: initial;
+}
+
+p {
+    word-break: break-all;
+    max-width: 400px;
+    margin: 10px;
+}
+
