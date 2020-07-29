@@ -1,0 +1,59 @@
+*{
+    margin: 10px 20px 10px 20px;
+}
+.head{
+    display: flex;
+    color: #6495ED;
+}
+
+.right{
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.left{
+    width: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+h5{
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    background-color:#6495ED ;
+}
+.characters::after{
+    content: "*";
+    color: red;
+    
+}
+.characterss::before{
+    content: "?";
+    color: gray;
+    background-color: gray;
+}
+form{
+    text-align: left;
+    margin-left: 20px;
+}
+h1{
+    color:  #6495ED;
+}
+input{
+    color: gray;
+    border-color:  #6495ED;
+    width: 35%;
+}
+hr{
+    border: 1px solid  #6495ED;
+    margin: 20px ;
+}
+button{
+    background-color:  #6495ED;
+    color: white;
+    
+}
+.button1{
+    text-align: right;
+}
