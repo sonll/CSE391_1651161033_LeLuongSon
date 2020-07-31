@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>07</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<style>
+    .icon>a {
+        margin: 0px 5px;
+        font-size: 40px;
+    }
+    
+    a>i {
+        color: white;
+    }
+    
+    .loginDiv {
+        display: none;
+    }
+    
+    .loginShow {
+        display: block;
+    }
+    
+    .search-bar {
+        display: block !important;
+    }
+    
+    .form-inline {
+        display: none;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .form-inline {
+            display: block !important;
+        }
+        .menu-bar {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .form-inline {
+            margin-left: 80px;
+        }
+        .form-inline>button {
+            margin-left: 150px;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="row text-center" style="background-color: rgb(26, 112, 105);">
+            <div class="col text-white">
+                <a href="#"><i class="fa fa-envelope">  Messages</i></a>
+            </div>
+            <div class="col text-white">
+                <a href="#"><i class="fa fa-globe">  English (en)</i></a>
+            </div>
+            <div class="col text-white dropdown">
+                <a href="#" class="login"><i class="fa fa-user">  Admin User <i class="fa fa-angle-down"></i></i></a>
+            </div>
+        </div>
+        <div class="row my-2 loginDiv">
+            <div class="col text-center mx-auto">
+                <form action="">
+                    <label for="userName">Username:</label>
+                    <input type="text" name="" id="userName">
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="" id="password">
+                    <br>
+                    <button id="submit" type="submit" style="border: 1px solid gray; border-radius: 5px;">Login</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="row" style="background-color: rgb(25, 192, 184); height: 80px;">
+            <div class="mx-auto my-auto icon">
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="row">
+            <a href="#" class="menu-bar ml-5"><i class="fa fa-bars text-dark " ></i></a>
+            <form class="form-inline my-lg-2 my-md-2 my-2 my-lg-0 w-100 ml-lg-5 ml-md-5">
+                <input style="width: 80%;" class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-12" style="background-color: rgb(25, 192, 184); height: 80px;">
+                <h4 class="text-white text-center mt-4 w-100">ANNOUNCEMENTS</h1>
+            </div>
+            <div class="col mt-2 ml-4">
+                <p>Anyone A news ticker to make <br>announcements on home / dashboard</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="height: 90px;background-image: url(https://s3.envato.com/files/87a1ce9a-a669-46da-9f8e-075489c92e5f/inline_image_preview.jpg);background-size: cover;">
+
+            </div>
+            <div class="col-12">
+                <br>
+                <p class="bg-dark d-inline text-white py-2 px-2">HAND CRAFTED</p>
+            </div>
+            <div class="col mt-2 ml-4">
+                <p>pixels and code for the Moodle<br>community</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" style="background-color: rgb(25, 192, 184); height: 80px;">
+                <h4 class="text-white text-center mt-4">READ MORE</h1>
+            </div>
+
+        </div>
+    </main>
+    <footer class="bg-dark fixed-bottom">
+        <h2 class="text-white text-center">Adaptable, the most <br>adaptable moodle theme</h2>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>

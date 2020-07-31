@@ -1,0 +1,87 @@
+.container {
+    margin: auto;
+    width: 1000px;
+    display: block;
+    box-shadow: 8px 8px 5px 5px rgb(202, 199, 199);
+}
+
+#row1 {
+    width: 900px;
+    height: 140px;
+}
+
+#row2 {
+    width: 900px;
+    height: 140px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#row3 {
+    width: 900px;
+    height: 140px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.circles {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    display: inline;
+    float: left;
+    background-color: blue;
+}
+
+.squares {
+    height: 120px;
+    width: 120px;
+    margin-left: 16px;
+    margin-top: 50px;
+    display: inline;
+    float: left;
+    background-color: blue;
+}
+
+.rectangles {
+    height: 30px;
+    width: 120px;
+    margin-left: 16px;
+    display: inline;
+    float: left;
+    background-color: blue;
+}
+
+.circlesChange {
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    display: inline;
+    float: left;
+    background-color: red;
+}
+
+.squaresChange {
+    height: 60px;
+    width: 60px;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: inline;
+    float: left;
+    background-color: greenyellow;
+}
+
+.rectanglesChange {
+    height: 20px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    margin-left: 16px;
+    display: inline;
+    float: left;
+    background-color: gold;
+}
