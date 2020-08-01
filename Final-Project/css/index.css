@@ -1,0 +1,13 @@
+#head-nav {
+    height: 57px;
+    margin-left: 250px;
+}
+
+#logo {
+    position: fixed;
+    top: 4px;
+    left: 45px;
+    width: 78px;
+    height: 155px;
+    z-index: 3;
+}

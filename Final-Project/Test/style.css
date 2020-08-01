@@ -1,0 +1,33 @@
+.nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 80px;
+    position: relative;
+}
+
+.label {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.head {
+    position: relative;
+}
+
+.logo {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#title {
+    padding: 0 15px;
+    font: 700 21px/30px Tahoma;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
