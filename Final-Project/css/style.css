@@ -1,0 +1,89 @@
+@font-face {
+    src: url(../font/UTM\ Bebas.ttf);
+    font-family: utm-bebas;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 0;
+    position: relative;
+}
+
+.label {
+    font-size: 11px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orange;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.head {
+    position: relative;
+}
+
+.logo {
+    bottom: 0;
+    left: -40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.title1 {
+    text-shadow: 1px 1px #000;
+    width: 82%;
+    padding: 0 15px;
+    font: 700 21px/30px Tahoma;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.title1-1 {
+    text-shadow: 1px 1px #000;
+    margin-top: 55px;
+    width: 82%;
+    padding: 0 15px;
+    font: 700 17px/30px Tahoma;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+.title2 {
+    width: 100%;
+    padding: 0 15px;
+    font: 700 16px/30px Tahoma;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+.skgame {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li a {
+    font-family: utm-bebas;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 23px;
+    margin: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    background-color: rgb(220, 220, 220);
+    color: rgb(105, 105, 105);
+}
+
+.nav-link {
+    font-size: 15px;
+}
