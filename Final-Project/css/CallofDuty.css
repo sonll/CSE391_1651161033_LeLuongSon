@@ -1,0 +1,73 @@
+@font-face {
+    src: url(../font/UTM\ Bebas.ttf);
+    font-family: utm-bebas;
+}
+
+@font-face {
+    src: url(../font/UTM\ TAHOMA_0.TTF);
+    font-family: tahoma;
+}
+
+.container-fluid {
+    background-image: url(https://gamek4.mediacdn.vn/web_images/call-of-duty-bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu ul li a {
+    font-family: utm-bebas;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 0;
+    color: #fff;
+    display: block;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding: 0 7px;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.menu2 h1 a {
+    font-family: utm-bebas;
+    font-size: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: -7px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.menu2 p {
+    font-family: utm-bebas;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+}
