@@ -6,7 +6,7 @@ a.bold{
 
 
 .top{
-    margin: 10px 0px 10px 0px
+    margin: 10px 120px 10px 0px
 }
 
 /*search */
@@ -56,3 +56,5 @@ input:-moz-placeholder {
 input::-webkit-input-placeholder {
     color: #999;
 }
+
+
