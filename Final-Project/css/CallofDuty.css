@@ -8,12 +8,11 @@
     font-family: tahoma;
 }
 
-.container-fluid {
-    background-image: url(https://gamek4.mediacdn.vn/web_images/call-of-duty-bg.jpg);
+body {
+    background-attachment: fixed;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    padding: 0;
 }
 
 .logo {
@@ -70,4 +69,105 @@
     font-size: 17px;
     color: #fff;
     text-transform: uppercase;
+}
+
+.menu3 {
+    border-top: 2px solid white;
+    width: 100%;
+    margin-left: 115px;
+}
+
+.menu3 ul li a {
+    font-family: utm-bebas;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 0;
+    color: #fff;
+    display: block;
+}
+
+.menu3 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu3 ul li {
+    margin-left: 20px;
+    padding: 0 7px;
+}
+
+.title {
+    font-family: utm-bebas;
+    font-size: 22px;
+    color: #353535;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 10px;
+}
+
+.topic {
+    font-family: Tahoma;
+    color: #353535;
+    padding-right: 5px;
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.listNews {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px dashed #dddddc;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed gray;
+    padding: 20px 0px 20px 0px;
+}
+
+.item div a {
+    font-family: Tahoma;
+    line-height: 22px;
+    color: #353535;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.item div p {
+    font-family: Arial;
+    color: #848484;
+    font-size: 12px;
+    padding: 10px 0;
+    display: block;
+    line-height: 18px;
+}
+
+.item div span {
+    color: #5d5d5d;
+}
+
+.item img {
+    margin-right: 20px;
+}
+
+#loadmore {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff!important;
+    padding: 9px 0;
+    background-color: #ce1328;
+    background-image: linear-gradient(#d6213c, #ce1328);
+    border: 1px solid #ab0014;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 2px;
+    left: 0;
+    display: block;
+    width: 100%;
 }
