@@ -13,9 +13,9 @@ a.bold{
     width: 80%;
     padding: 0 15px;
     font: 700 16px/30px tahoma;
-    color: #fff;
+    color: #fafafa;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
 }
 
 /*search */
