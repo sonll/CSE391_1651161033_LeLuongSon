@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Trang Chủ</title>
 </head>
 
 <body>
     <div class="container">
+        <div style="position: fixed; right: -10px; top: 45%;">
+            <img id="upToTop" src="images/arrowUp.png" alt="" style=" width: 60%; height: 60%;">
+        </div>
+
         <div id="qc">
             <img class="img-fluid" src="https://mingid.mediacdn.vn/images_taskbar/logo-vietid.png" alt=" ">
             <a href="">Đăng nhập ViệtIĐ</a>
@@ -33,7 +38,7 @@
             ; position: relative; background-color: #ec5f5f;">
 
                 <ul class="navbar-nav">
-                    <li class="nav-item" style="width: 30px; margin-left: 100px;">
+                    <li class="nav-item" style="width: 100px; margin-left: 100px;">
                         <a href="#" class="nav-link "></a>
                     </li>
                     <li class="nav-item">
@@ -56,12 +61,9 @@
                     </li>
 
 
-                    <ul class="form">
-                        <form class="form-inline" style="margin-top: 15px;  border-radius: 10px; background-color: white;">
-                            <div class="input-group-append" style=" height: 20px;">
-                                <input class="form-control mr-sm-1" type="search" placeholder=" Tìm Kiếm..." aria-label="" style="background-color: white; padding: 0; margin: 2px;border-color: white;  width: 100px; font-size: 12px;">
-                                <img src="search.png" alt="" style="padding: 2px;">
-                            </div>
+                    <ul class="form" style="margin-top: 10px;">
+                        <form>
+                            <input type="search" placeholder="Search">
                         </form>
                     </ul>
 
@@ -71,7 +73,7 @@
             </nav>
 
         </div>
-        <nav class="navbar navbar-expand-lg bg-dark" style="position: relative; height: 35px;">
+        <nav id="black-nav" class="navbar navbar-expand-lg" style="position: relative; height: 35px; background-color: #343a40;">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link text-color-red">
@@ -96,11 +98,11 @@
             </ul>
 
         </nav>
-        <div style=" padding: 20px; text-align: center;">
-            <img class="img-fluid" src="background.png" alt="">
+        <div style="text-align: center; border: 2px wheat solid; ">
+            <img class="img-fluid" src="images/background.png" alt="">
         </div>
 
-        <div class="row" style="margin: 0;background-color: yellow; padding-bottom: 20px; ">
+        <div class="row" style="margin: 0; padding-bottom: 20px; ">
             <div id="content" class="col-sm-5" style="max-width: 45% ;  padding: 0; background-image: url(https://gamek.mediacdn.vn/zoom/399_262/133514250583805952/2020/8/4/photo-1-15965116007321716565624.jpg); background-repeat: no-repeat; ">
                 <div class="title1">Bất chấp lệnh cách ly xã hội, 11 thanh niên vẫn miệt mài cày game giữa mùa dịch Covid-19</div>
 
@@ -111,29 +113,34 @@
                 <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/278_262/133514250583805952/2020/7/31/54-15961967064311345215023.png" alt="">
             </div>
 
-            <div class="col-sm-4 ">
+            <div class="col-sm-4 " style=" padding:0px 10px 10px 50px; ">
+                <img class="img-fluid" src="https://blog.tqdesign.vn/wp-content/uploads/2017/07/hinh-anh-dong-xu-huong-quang-cao-moi-1.gif" alt="">
 
             </div>
 
         </div>
 
 
-        <div class="row" style="margin: 0;background-color: yellow; padding-bottom: 20px; ">
+        <div class="row" style="margin: 0; padding-bottom: 20px; ">
             <div id="content" class="col-sm-5 " style="padding: 0; max-width: 45%; background-image: url(https://gamek.mediacdn.vn/zoom/399_163/133514250583805952/2020/8/4/dwg-15965110921251487804998.png); background-repeat: no-repeat; ">
-                <span class="label" style="background-color: orange; ">Liên Minh Huyền Thoại</span>
+                <span class="label">Liên Minh Huyền Thoại</span>
                 <div class="title1-1 " style="margin-top: 20px; ">Damwon Gaming Nuguri nóng lòng phá kỷ lục hiệu số +29 của SKT T1 đã từng thiết lập</div>
             </div>
             <div id="content " class="col-sm-3 " style="padding: 0; ">
-                <span class="label" style="background-color: orange; ">Manga/Film</span>
+                <span class="label">Manga/Film</span>
                 <div class="title2">Dự đoán One Piece 987: Kaido hóa rồng tấn công Cửu Hồng Bao, Luffy đụng độ Who Who?</div>
-                <img class="img-fluid " src="https://gamek.mediacdn.vn/zoom/278_163/133514250583805952/2020/8/4/tai-xuong-1-1596516525795356308243.jpg " alt=" ">
+                <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/278_163/133514250583805952/2020/8/4/tai-xuong-1-1596516525795356308243.jpg " alt=" ">
             </div>
+            <div class="col-sm-4 " style=" padding:0px 10px 0px 50px; ">
+                <img class="img-fluid" src="https://thumbs.gfycat.com/FrequentDentalLice-max-1mb.gif" alt="">
+            </div>
+
 
 
         </div>
 
         <div class="row" style="margin: 0 ; ">
-            <div class="col-sm-5" style="background-color: greenyellow; ">
+            <div class="col-sm-5">
                 <div class="row">
                     <div class="col-sm-5" style="padding:0; ">
                         <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/192_129/133514250583805952/2020/8/1/photo-1-15962976380481885264519.jpg " alt=" ">
@@ -161,7 +168,7 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <div class="col-sm-6 " style="padding: 0; ">
+                    <div class="col-sm-6 " style="padding: 0; background-color: #EFEFEF; ">
                         <h2>Video Đáng Chú Ý</h2>
                         <div style="padding: 15 px; display: flex; flex-direction: row; ">
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
@@ -171,17 +178,19 @@
                         <div style="padding: 15 px; display: flex; flex-direction: row; ">
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
                             <a class="content" href=" ">(Video Vietsub) Đẳng cấp là mãi mãi: Faker mời đàn em Teddy ăn ngập cháo hành với tướng tủ Leblanc</a>
+
                         </div>
+                        <hr>
                     </div>
-                    <div class="col-sm-6" style="background-color: indigo; ">
-                        <p>abc</p>
+                    <div class="col-sm-6">
+                        <img style="padding: 10px ; top: 0; right: 0; position: absolute; z-index: 2;" class="img-fluid" src="https://i.pinimg.com/originals/8b/53/ce/8b53ce3d883e9f32b4c9946451a6ab21.gif" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row" style="margin: 0 ; ">
-            <div class="col-sm-5 " style="background-color: greenyellow; ">
+            <div class="col-sm-5 ">
                 <div class="row">
                     <div class="col-sm-5 " style="padding:0; ">
                         <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/192_129/133514250583805952/2020/8/1/photo-1-15962976380481885264519.jpg " alt=" ">
@@ -207,9 +216,9 @@
 
 
             </div>
-            <div class="col-sm-7" style="background-color: green; ">
+            <div class="col-sm-7">
                 <div class="row">
-                    <div class="col-sm-6 " style="background-color: hotpink; padding: 0; ">
+                    <div class="col-sm-6 " style="padding: 0; background-color: #EFEFEF; ">
                         <h2>Video Đáng Chú Ý</h2>
                         <div style="padding: 15 px; display: flex; flex-direction: row; ">
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
@@ -219,16 +228,18 @@
                         <div style="padding: 15 px; display: flex; flex-direction: row; ">
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
                             <a class="content" href=" ">(Video Vietsub) Đẳng cấp là mãi mãi: Faker mời đàn em Teddy ăn ngập cháo hành với tướng tủ Leblanc</a>
+
                         </div>
+                        <hr>
                     </div>
-                    <div class="col-sm-6" style="background-color: indigo; ">
-                        <p>abc</p>
+                    <div class="col-sm-6">
+
                     </div>
                 </div>
             </div>
         </div>
         <div class="row" style="margin: 0 ; ">
-            <div class="col-sm-5" style="background-color: greenyellow; ">
+            <div class="col-sm-5">
                 <div class="row">
                     <div class="col-sm-5" style="padding:0; ">
                         <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/192_129/133514250583805952/2020/8/1/photo-1-15962976380481885264519.jpg " alt=" ">
@@ -254,9 +265,9 @@
 
 
             </div>
-            <div class="col-sm-7" style="background-color: green; ">
+            <div class="col-sm-7">
                 <div class="row">
-                    <div class="col-sm-6" style="background-color: hotpink; padding: 0; ">
+                    <div class="col-sm-6" style=" padding: 0; background-color: #EFEFEF; ">
                         <h2>Video Đáng Chú Ý</h2>
                         <div style="padding: 15 px; display: flex; flex-direction: row; ">
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
@@ -267,9 +278,10 @@
                             <img style="height: 50px; " src="https://gamek.mediacdn.vn/zoom/80_50/2019/12/29/faker-1577636808740561485547.jpg " alt=" ">
                             <a class="content" href=" ">(Video Vietsub) Đẳng cấp là mãi mãi: Faker mời đàn em Teddy ăn ngập cháo hành với tướng tủ Leblanc</a>
                         </div>
+                        <hr>
                     </div>
-                    <div class="col-sm-6" style="background-color: indigo; ">
-                        <p>abc</p>
+                    <div class="col-sm-6">
+
                     </div>
                 </div>
             </div>
@@ -280,7 +292,7 @@
         <div class="row " style="margin: 0 ; ">
             <div class="col-sm-9" style=" padding: 0; background-color: efefef; border: 1px solid #e5e4e4; ">
                 <div class="skgame">
-                    <span style="background-color: #333; color: #ff8301; font-size: 15px; padding: 5px; margin-bottom: 20px; margin-right: 5px; font-weight: bold; ">Đáng Chú Ý</span>
+                    <span style="margin-top: 10px; background-color: #333; color: #ff8301; font-size: 15px; padding: 5px; margin-bottom: 20px; margin-right: 5px; font-weight: bold; ">Đáng Chú Ý</span>
                     <p style="margin-top: 5px;font-weight: bold;color: #363636; line-height: 22px;font-family: Tahoma; ">Tặng 2000 Giftcode 3Q Bá Vương - Game thẻ tướng HOT nhất<br> tháng 7 đã ra mắt!</p>
                     <a id="viewall" href=" ">Chi tiết</a>
                 </div>
@@ -289,7 +301,7 @@
             </div>
 
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
 
             </div>
@@ -365,28 +377,28 @@
 
             </div>
 
-            <div class="col-sm-3" style="background-color: green; ">
-
+            <div class="col-sm-3">
+                <img id="advertise" style="padding: 5px; border: 2px solid #F4F3F3 ; position: absolute; z-index: 2; top: 0 ;right: 0;" class="img-fluid" src="https://m.tinxe.vn/Upload/PNL1-Oto-200420-Banner-640x1280-Tinxe.gif" alt="">
             </div>
         </div>
         <div class="row" style="margin: 0 ; ">
-            <div class="col-sm-9" style="background-color: greenyellow; padding: 0; ">
+            <div class="col-sm-9" style=" padding: 0; ">
 
 
 
             </div>
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
             </div>
         </div>
 
         <div class="row" style="margin: 15px 0px 15px 0px ; ">
-            <div class="col-sm-9" style="background-color: greenyellow; padding: 0; ">
+            <div class="col-sm-9" style=" padding: 0; ">
                 <div style="background-color: #C6C5C5; ">
                     <p style=" font-family: Tahoma; font-size: 15px; font-weight: bold;  padding-top: 5px; background-color: #D21A32; color: white; width: 150px; height: 35px; text-align: center;">MỚI CẬP NHẬT</p>
                 </div>
-                <div style="display: flex; flex-direction: row; ">
+                <div style="display: flex; flex-direction: row; background-color: #F4F3F3; ">
                     <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2020/8/4/photo-2-15965233467751284572933.jpg " alt=" ">
                     <div style="padding: 20px;">
                         <a class="titleUpdate" href="#" style="text-decoration: none;">Ninja Làng Lá Mobile chìu fan Naruto hết nấc tặng miễn phí VIP 8, Tướng đỏ mừng ra mắt game hôm nay 4/8</a>
@@ -401,15 +413,15 @@
 
             </div>
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
             </div>
         </div>
 
-        <div class="row" style="margin: 15px 0px 15px 0px ; ">
-            <div class="col-sm-9" style="background-color: greenyellow; padding: 0; ">
+        <div id="addNew" class="row" style="margin: 15px 0px 15px 0px ; ">
+            <div class="col-sm-9" style=" padding: 0; ">
 
-                <div style="display: flex; flex-direction: row; ">
+                <div style="display: flex; flex-direction: row; background-color: #F4F3F3; ">
                     <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2020/8/12/mmb2-15972241748032040038870.jpg" alt=" ">
                     <div style="padding: 20px;">
                         <a class="titleUpdate" href="#" style="text-decoration: none;">Sword Art Online: Nhìn lại cái chết của Eugeo, người bạn thân đầu tiên của "Hắc kiếm sĩ" Kirito</a>
@@ -424,16 +436,16 @@
 
             </div>
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
             </div>
         </div>
 
 
         <div class="row" style="margin: 15px 0px 15px 0px ; ">
-            <div class="col-sm-9" style="background-color: greenyellow; padding: 0; ">
+            <div class="col-sm-9" style=" padding: 0; ">
 
-                <div style="display: flex; flex-direction: row; ">
+                <div style="display: flex; flex-direction: row;  background-color: #F4F3F3;">
                     <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2020/8/4/photo-2-15965233467751284572933.jpg " alt=" ">
                     <div style="padding: 20px;">
                         <a class="titleUpdate" href="#" style="text-decoration: none;">Ninja Làng Lá Mobile chìu fan Naruto hết nấc tặng miễn phí VIP 8, Tướng đỏ mừng ra mắt game hôm nay 4/8</a>
@@ -448,10 +460,37 @@
 
             </div>
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
             </div>
         </div>
+
+        <div class="row" style="margin: 15px 0px 15px 0px ; ">
+            <div class="col-sm-9" style=" padding: 0; ">
+
+                <div style="display: flex; flex-direction: row;  background-color: #F4F3F3;">
+                    <img class="img-fluid" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2020/8/4/photo-2-15965233467751284572933.jpg " alt=" ">
+                    <div style="padding: 20px;">
+                        <a class="titleUpdate" href="#" style="text-decoration: none;">Ninja Làng Lá Mobile chìu fan Naruto hết nấc tặng miễn phí VIP 8, Tướng đỏ mừng ra mắt game hôm nay 4/8</a>
+                        <p style="margin: 15px 0px 15px 0px; color: #7F7D7D;">Vượt ngoài sức tưởng tượng của cộng đồng fan Naruto nói riêng và người chơi game đấu thẻ tướng nói chung khi Ninja Làng Lá Mobile quyết định chơi lớn tặng miễn phí VIP 8, Tướng đỏ vĩnh viễn ngay khi vào game.</p>
+                        <span style="color: #C71B28; font-weight: bold;">Thể loại</span>
+                        <span style="color: #C71B28; margin-left: 20px;">Khám Phá-13/08/2020</span>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-sm-3">
+
+            </div>
+        </div>
+
+
+
+
 
         <div class="row" style="margin: 10px 0px 10px 0px ; ">
 
@@ -480,7 +519,7 @@
             </div>
 
 
-            <div class="col-sm-3" style="background-color: green; ">
+            <div class="col-sm-3">
 
             </div>
         </div>
@@ -569,7 +608,8 @@
                     <BR> Hỗ trợ & CSKH: Admicro
                     <BR> Address: Tầng 20, Tòa nhà Center Building - Hapulico Complex, Số 1 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội.
                     <br>
-                    <button style=" margin-top: 5px; font-size: 10px; background-color: #00BFFF; color: white; ">CHAT VỚI TƯ VẤN VIÊN</button>
+                    <br>
+                    <a style="font-weight: bold; padding: 2px;font-size: 10px; background-color: #00BFFF; color: white; ">CHAT VỚI TƯ VẤN VIÊN</a>
                 </p>
 
             </div>
@@ -581,5 +621,6 @@
 
 
 </body>
+<script src="./js/Final-Project.js"></script>
 
 </html>
