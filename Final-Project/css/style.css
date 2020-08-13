@@ -127,6 +127,7 @@ h3 {
 
 .nav-link:hover {
     background-color: grey;
+    color: white;
 }
 
 .content {
