@@ -193,3 +193,24 @@ h3 {
     box-shadow: inset 0 0 5px #F4F3F3;
     border-radius: 10px;
 }
+
+.titleUpdate {
+    color: #393838;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+.info {
+    margin: 20px 20px 0px 20px;
+    color: white;
+    background-color: #525252;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px 10px 20px;
+}
+
+.footer {
+    background-color: #525252;
+}
