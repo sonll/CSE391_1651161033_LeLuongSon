@@ -9,6 +9,15 @@ a.bold{
     margin: 10px 120px 10px 0px
 }
 
+.title3 {
+    width: 80%;
+    padding: 0 15px;
+    font: 700 16px/30px tahoma;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+}
+
 /*search */
 input {
     outline: none;
